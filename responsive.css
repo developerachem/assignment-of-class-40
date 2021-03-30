@@ -1,0 +1,259 @@
+@media all and (max-width:1400px){
+
+}
+@media all and (max-width: 1200px){
+    .about-text {
+        margin-top: 33px;
+    }
+    .apps-card h1 {
+        height: 100px;
+        width: 100px;
+        line-height: 80px;
+    }
+    .apps-card h3 {
+        margin-bottom: 18px;
+        font-size: 17px;
+    }
+    .our-team-section {
+        padding-top: 0 !important;
+    }
+    .our-team-card {
+        margin-top: 72px;
+    }
+}
+@media all and (max-width: 992px) {
+    .menu-logo {
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    .banner-text {
+        margin-top: inherit;
+    }
+    .about-text {
+        margin: 0px;
+    }
+    .about-text h5 {
+        margin-bottom: 9px !important;
+    }
+    .about-text h3 {
+        margin-bottom: 10px !important;
+    }
+    .top-slider {
+        height: 47px;
+        width: 176px;
+        padding: 10px;
+    }
+    .bottom-slider {
+        height: 102px;
+    }
+    .text-center-center {
+        margin: auto !important;
+        margin-top: 20px !important;
+    }
+}
+@media all and (max-width: 768px){
+    /* mobile menu start */
+    
+    .menu-logo {
+        margin-bottom: inherit;
+        text-align: left;
+    }
+    
+    .menu-logo h3{
+        margin-bottom: inherit;
+    }
+    /* .menu-text .mobile-menu-icon{
+        display: block;
+        text-align: right;
+        font-size: 27px;
+    }
+    .menu-text input[type="checkbox"]:checked ~ #open{
+        opacity: 0;
+    }
+    .menu-text .mobile-menu-close{
+        display: block;
+        text-align: right;
+        font-size: 27px;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        height: 20px;
+        width: 24px;
+        opacity: 0;
+    }
+    .menu-text input[type="checkbox"]:checked ~ #close{
+        opacity: 1;
+    }
+    .menu-text {
+        position: relative;
+    } */
+    .menu-text{
+        position: relative;
+    }
+    .menu-text input[type="checkbox"]{
+        display: block;
+        position: relative;
+        height: 40px;
+        width: 35px;
+        cursor: pointer;
+        opacity: 1;
+        appearance: none;
+        left: 85%;
+        top: -6%;
+    }
+    .menu-text input[type="checkbox"]::after{
+        content: "\f0c9 ";
+        font-family: FontAwesome;;
+        position: absolute;
+        top: -7px;
+        left: 0;
+        font-size: 38px;
+    }
+    .menu-text input[type="checkbox"]:checked::after{
+        opacity: 0;
+    }
+    .menu-text input[type="checkbox"]::before{
+        content: "\f00d ";
+        font-family: FontAwesome;;
+        position: absolute;
+        top: -7px;
+        left: 0;
+        font-size: 38px;
+        opacity: 0;
+    }
+    .menu-text input[type="checkbox"]:checked::before{
+        opacity: 1;
+    }
+    .menu-text input[type="checkbox"]:checked ~ ul{
+        transform: translateX(25%);
+    }
+
+
+
+    .menu-text ul {
+        position: absolute;
+        top: 57px;
+        right: -124px;
+        height: 100vh;
+        width: 500px;
+        background-color: #a09c96;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        z-index: 111111;
+        transform: translateX(503px);
+        transition: 1s;
+        box-shadow: -19px 13px 20px #0000003d;
+    }
+    
+    .menu-text ul li {
+        display: block;
+    }
+    .menu-text ul li a {
+        display: block;
+        border-bottom: 1px solid #000;
+        line-height: 36px;
+        font-size: 20px;
+    }
+
+    .menu-text ul li ul {
+        z-index: 11;
+        left: 0px;
+        top: 100%;
+        width: 100%;
+        transform: translateX(0);
+    }
+    .menu-text ul li ul li a {
+        line-height: 30px;
+        color: green;
+    }
+
+
+
+    /* mobile menu end */
+    .about-image {
+        margin-bottom: 15px;
+    }
+    .css-btn {
+        margin-top: 2px !important;
+    }
+    .apps-card {
+        margin-bottom: 25px;
+    }
+    .banner-text h5 {
+        margin-bottom: 10px !important;
+    }
+    .banner-text h2 {
+        margin-bottom: 15px !important;
+    }
+    
+    .text-center-center {
+        margin-top: inherit !important;
+    }
+    .contact-text {
+        margin-top: 27px;
+        margin-left: 5px;
+    }
+    .col-xl-5.col-lg-5.col-md-5 {
+        border-top: 3px solid #8490ff;
+        margin-top: 40px;
+    }
+    .contact-form textarea {
+        background-color: white;
+        height: 130px !important;
+    }
+}
+@media all and (max-width: 576px){
+
+
+
+    .col-xl-4.col-lg-3.col-md-12.col-sm-6 {
+        max-width: 50%;
+    }
+    .col-xl-8.col-lg-9.col-md-12.col-sm-6 {
+        max-width: 50%;
+    }
+
+    .menu-text input[type="checkbox"] {
+        left: 64%;
+    }
+
+    .counter-section {
+        padding: 0 !important;
+    }
+    
+    .col-xl-3.col-lg-3.col-md-3.col-sm-6.p-3.text-center {
+        border-bottom: 1px solid #e1dfdb;
+    }
+    .app-section {
+        padding: 0 25px;
+    }
+    .heading.text-center.mb-5 {
+        padding: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .heading.text-center.mb-5 h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .heading.text-center.mb-5 p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .our-team-section {
+        padding: 40px 35px !important;
+    }
+    .team-text {
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .contact-section {
+        background-color: #f9f9ff;
+        padding: 0 35px;
+    }
+    .contact-form textarea {
+        height: 100px !important;
+    }
+    .footer-section p {
+        font-size: 14px;
+    }
+}
