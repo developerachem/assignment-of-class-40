@@ -248,4 +248,8 @@
     .btn-form {
         padding: 10px 20px !important;
     }
+    .contact-text h5 {
+        font-size: 15px;
+        line-height: 1.7em;
+    }
 }
