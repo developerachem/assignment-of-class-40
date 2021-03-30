@@ -108,7 +108,7 @@
         opacity: 1;
     }
     .menu-text input[type="checkbox"]:checked ~ ul{
-        transform: translateX(25%);
+        transform: scaleX(1);
     }
 
 
@@ -118,14 +118,15 @@
         top: 57px;
         right: -124px;
         height: 100vh;
-        width: 500px;
+        width: 350px;
         background-color: #a09c96;
         flex-direction: column;
         justify-content: flex-start !important;
         z-index: 111111;
-        transform: translateX(533px);
+        transform: scaleX(0);
         transition: 1s;
         box-shadow: -19px 13px 20px #0000003d;
+        transform-origin: right;
     }
     
     .menu-text ul li {
