@@ -22,6 +22,7 @@
     }
 }
 @media all and (max-width: 992px) {
+
     .menu-logo {
         text-align: center;
         margin-bottom: 14px;
@@ -50,6 +51,12 @@
         margin: auto !important;
         margin-top: 20px !important;
     }
+    .contact-form input::placeholder{
+        font-size: 15px;
+    }
+    .contact-form textarea::placeholder{
+        font-size: 15px;
+    }
 }
 @media all and (max-width: 768px){
     /* mobile menu start */
@@ -62,31 +69,7 @@
     .menu-logo h3{
         margin-bottom: inherit;
     }
-    /* .menu-text .mobile-menu-icon{
-        display: block;
-        text-align: right;
-        font-size: 27px;
-    }
-    .menu-text input[type="checkbox"]:checked ~ #open{
-        opacity: 0;
-    }
-    .menu-text .mobile-menu-close{
-        display: block;
-        text-align: right;
-        font-size: 27px;
-        position: absolute;
-        top: 0px;
-        right: 0;
-        height: 20px;
-        width: 24px;
-        opacity: 0;
-    }
-    .menu-text input[type="checkbox"]:checked ~ #close{
-        opacity: 1;
-    }
-    .menu-text {
-        position: relative;
-    } */
+    
     .menu-text{
         position: relative;
     }
@@ -140,7 +123,7 @@
         flex-direction: column;
         justify-content: flex-start !important;
         z-index: 111111;
-        transform: translateX(503px);
+        transform: translateX(533px);
         transition: 1s;
         box-shadow: -19px 13px 20px #0000003d;
     }
@@ -205,7 +188,6 @@
 @media all and (max-width: 576px){
 
 
-
     .col-xl-4.col-lg-3.col-md-12.col-sm-6 {
         max-width: 50%;
     }
@@ -255,5 +237,14 @@
     }
     .footer-section p {
         font-size: 14px;
+    }
+}
+
+@media all and (max-width:380px) {
+    .menu-logo h3 {
+        font-size: 16px;
+    }
+    .btn-form {
+        padding: 10px 20px !important;
     }
 }
